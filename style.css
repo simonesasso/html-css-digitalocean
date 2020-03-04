@@ -9,11 +9,16 @@
   display: table;
   clear: both;
 }
+
 a:hover{
   text-decoration: none;
   color: dodgerblue;
 }
+a:visited{
+  text-decoration: none;
+}
 a{
+  text-decoration: none;
   color: #010e28;
 }
 ul{
@@ -49,17 +54,52 @@ ul{
   display: none;
 }
 .navbar{
-  padding: 7px 0 17px;
-
+  padding: 7px 0 7px;
+  background-color: white;
+}
+/* JUMBOTRON-----------------------------------------------------*/
+#jumbotron{
+  background-image: url("immagini/sfondo.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-top: 50px;
+}
+.jumbo-txt{
+  color: white;
+  font-size: 150%;
+  margin-top: 10%;
 }
 .prova{
   background-color: red;
   height: 344px;
-  margin-top: 54px;
 }
+/* SEZIONE LOGHI ----------------------------------------------------------*/
+#sez-loghi{
+  background-color: #f3f5f9;
+  padding: 50px 0;
+}
+#loghi-txt{
+  font-weight: bold;
+
+}
+#link-loghi{
+  color: dodgerblue;
+  font-weight: bold;
+}
+.loghi-img{
+  width: 130px;
+  height: auto;
+  padding: 0 8px;
+}
+.loghi-wrapper{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
 /* MEDIA QUERY-------------------------------------------------------*/
 @media screen and (max-width: 400px){
-
+/* NAVBAR-------------------------------------------*/
   .li-nav{
     display: none;
   }
@@ -82,6 +122,14 @@ ul{
 
   }
 }
+@media screen and (min-width: 695px) and (max-width: 1199px){
+  .loghi-img{
+    width: 85px;
+    height: auto;
+    padding: 0 8px;
+  }
+}
+
 @media screen and (min-width: 401px) and (max-width: 1200px){
 
   .li-nav{
@@ -102,4 +150,5 @@ ul{
   .glyphicon{
     font-size: 30px;
   }
+
 }
