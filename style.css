@@ -1,0 +1,105 @@
+/* GENERALI-----------------------------------------*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+a:hover{
+  text-decoration: none;
+  color: dodgerblue;
+}
+a{
+  color: #010e28;
+}
+ul{
+  list-style-type: none;
+}
+/* NAVBAR------------------------------------*/
+#logo-dig-ocean{
+  width: 50%;
+  height: auto;
+  padding: 4.5% 3% 0;
+}
+
+.li-nav{
+  float: left;
+  padding: 3% 3% 0;
+  font-weight:bold;
+}
+
+#sign-up{
+  color: dodgerblue;
+  border: 1px solid dodgerblue;
+  padding:10px;
+  border-radius: 10px;
+}
+.li-nav-right{
+  float: right;
+  padding: 3% 3% 0;
+  font-weight:bold;
+}
+#hamburger-menu{
+  float: right;
+  padding: 3% 3% 0;
+  display: none;
+}
+.navbar{
+  padding: 7px 0 17px;
+
+}
+.prova{
+  background-color: red;
+  height: 344px;
+  margin-top: 54px;
+}
+/* MEDIA QUERY-------------------------------------------------------*/
+@media screen and (max-width: 400px){
+
+  .li-nav{
+    display: none;
+  }
+  .li-nav-right{
+    display: none;
+  }
+  #logo-dig-ocean{
+    width: 100px;
+    height: auto;
+    padding: 15px 0 0;
+  }
+  #hamburger-menu{
+   padding: 0 0 0;
+   display: block;
+   float: right;
+   
+  }
+  .glyphicon{
+    font-size: 25px;
+
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 1200px){
+
+  .li-nav{
+    display: none;
+  }
+  .li-nav-right{
+    display: none;
+  }
+  #logo-dig-ocean{
+    width: 100px;
+    height: auto;
+    padding: 12px 0 0;
+  }
+  #hamburger-menu{
+    padding:  5px 0 0;
+    display:block;
+  }
+  .glyphicon{
+    font-size: 30px;
+  }
+}
