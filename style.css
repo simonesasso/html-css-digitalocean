@@ -96,10 +96,22 @@ ul{
   margin: auto;
   text-align: center;
 }
-
+/* DEPLOY SECTION ----------------------------------------------------*/
+.deploy-menu{
+  margin-left: 12%;
+}
+.li-deploy{
+  font-size: 120%;
+  padding: 4%;
+  border-left: 1px solid grey;
+}
+.div-deploy{
+  max-width: 70%;
+}
 /* MEDIA QUERY-------------------------------------------------------*/
-@media screen and (max-width: 400px){
 /* NAVBAR-------------------------------------------*/
+@media screen and (max-width: 400px){
+
   .li-nav{
     display: none;
   }
@@ -112,24 +124,16 @@ ul{
     padding: 15px 0 0;
   }
   #hamburger-menu{
-   padding: 0 0 0;
+   padding: 11px 0 0;
    display: block;
    float: right;
+ }
 
-  }
   .glyphicon{
     font-size: 25px;
 
   }
 }
-@media screen and (min-width: 695px) and (max-width: 1199px){
-  .loghi-img{
-    width: 85px;
-    height: auto;
-    padding: 0 8px;
-  }
-}
-
 @media screen and (min-width: 401px) and (max-width: 1200px){
 
   .li-nav{
@@ -151,4 +155,34 @@ ul{
     font-size: 30px;
   }
 
+}
+/* SEZ LOGHI---------------------------------------------------*/
+@media screen and (max-width: 359px){
+  .loghi-img{
+    width: 75px;
+    height: auto;
+    padding: 0 3px;
+  }
+  #hamburger-menu{
+   padding: 0;
+   display: block;
+   float: right;
+ }
+
+}
+@media screen and (min-width: 695px) and (max-width: 1199px){
+  .loghi-img{
+    width: 85px;
+    height: auto;
+    padding: 0 8px;
+  }
+}
+/* sez deploy-----------------------------------------------------------------------------*/
+@media screen and (max-width: 991px){
+  .deploy-menu{
+    margin-left: 0;
+  }
+  .div-deploy{
+    max-width: 100%;
+  }
 }
