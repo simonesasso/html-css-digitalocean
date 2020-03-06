@@ -170,9 +170,10 @@ h1{
 .carousel-txt{
   padding: 40px 0;
 }
-#carousel-img-1{
+.carousel-img-1{
   width: 80%;
   height: auto;
+  margin: auto;
 }
 #carousel-icon{
   font-size: 20px;
@@ -183,6 +184,11 @@ h1{
 
 .carousel-ring{
   font-size: 50px;
+}
+.carousel-img{
+  width: 80%;
+  height: auto;
+  margin: auto;
 }
 /* sez business ------------------------------------------------*/
 .business-colonne{
