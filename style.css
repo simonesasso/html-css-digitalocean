@@ -190,6 +190,12 @@ h1{
   height: auto;
   margin: auto;
 }
+#carousel-button{
+  background-image: url();
+}
+#carousel-button-2{
+  background-image: url();
+}
 /* sez business ------------------------------------------------*/
 .business-colonne{
   padding: 35px 0;
